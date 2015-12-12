@@ -1,6 +1,3 @@
-
-
-
 es:
   devise:
     failure:
@@ -181,19 +178,19 @@ es:
   checkout_total_price: Total
   checkout_back_to_cart: "De vuelta al carrito"
 
-  order_paid: PAID
-  order_not_paid: NOT PAID
-  order_total: Total order
-  order_payment: "Paying via:"
-  order_billing_address: Billing address
-  order_delivery_on: Delivery on
-  order_delivery_address: Delivery address
-  order_special_instructions: "Your notes:"
-  order_pickup_instructions: Collection Instructions
-  order_produce: Produce
+  order_paid: PAGADO
+  order_not_paid: NO PAGADO
+  order_total: Orden total
+  order_payment: "Pagando con:"
+  order_billing_address: Dirección de cobro
+  order_delivery_on: Entregar en
+  order_delivery_address: Dirección de entrega
+  order_special_instructions: "Sus notas:"
+  order_pickup_instructions: Instrucciones de recolección
+  order_produce: Productos
   order_total_price: Total
-  order_includes_tax: (includes tax)
-  order_payment_paypal_successful: Your payment via PayPal has been processed successfully.
+  order_includes_tax: (incluye impuesto)
+  order_payment_paypal_successful: Su pago a través de PayPal ha sido procesado con éxito.
   order_hub_info: Hub Info
 
   products: "Products"
