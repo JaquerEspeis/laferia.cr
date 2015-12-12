@@ -191,150 +191,150 @@ es:
   order_total_price: Total
   order_includes_tax: (incluye impuesto)
   order_payment_paypal_successful: Su pago a través de PayPal ha sido procesado con éxito.
-  order_hub_info: Hub Info
+  order_hub_info: Información del centro de acopio
 
-  products: "Products"
-  products_in: "in %{oc}"
-  products_at: "at %{distributor}"
-  products_elsewhere: "Products found elsewhere"
+  products: "Productos"
+  products_in: "en %{oc}"
+  products_at: "en %{distributor}"
+  products_elsewhere: "Productos encontrados en otros lugares"
 
-  email_welcome: "Welcome"
-  email_confirmed: "Thank you for confirming your email address."
-  email_registered: "is now part of"
-  email_userguide_html: "The User Guide with detailed support for setting up your Producer or Hub is here:
+  email_welcome: "Bienvenido"
+  email_confirmed: "Gracias por confirmar la dirección de correo electrónico."
+  email_registered: "ahora es parte de"
+  email_userguide_html: "La Guía de Usuario con soporte detallado para configura su Procutor o Centro de acopio está aquí:
 %{link}"
-  email_admin_html: "You can manage your account by logging into the %{link} or by clicking on the cog in the top right hand side of the homepage, and selecting Administration."
-  email_community_html: "We also have an online forum for community discussion related to OFN software and the unique challenges of running a food enterprise. You are encouraged to join in. We are constantly evolving and your input into this forum will shape what happens next.
+  email_admin_html: "Puede administrar su cuenta iniciando sesión en %{link} o haciendo clic en el engrane arriba a la derecha de la página de inicio, y seleccionando Administración."
+  email_community_html: "También tenemos un foro en líea para la discusión comunal relacionada con el programa OFN y los retos únicos del funcionamiento de una empresa de alimentación. Lo invitamos a unirse. Estamos evolucionando de forma constante y su aporte en este formo le dará forma a lo que pase luego.
 %{link}"
-  email_help: "If you have any difficulties, check out our FAQs, browse the forum or post a 'Support' topic and someone will help you out!"
-  email_confirmation_greeting: "Hi, %{contact}!"
-  email_confirmation_profile_created: "A profile for %{name} has been successfully created!
-To activate your Profile we need to confirm this email address."
-  email_confirmation_click_link: "Please click the link below to confirm your email and to continue setting up your profile."
-  email_confirmation_link_label: "Confirm this email address »"
-  email_confirmation_help_html: "After confirming your email you can access your administration account for this enterprise.
-See the %{link} to find out more about %{sitename}'s features and to start using your profile or online store."
-  email_confirmation_userguide: "User Guide"
-  email_social: "Connect with Us:"
-  email_contact: "Email us:"
-  email_signoff: "Cheers,"
-  email_signature: "%{sitename} Team"
+  email_help: "Si tiene dificultades, revise nuestras preguntas frecuentes, navegue el foro o haga una entrada de con tema de 'Soporte' y ¡alguien le ayudará!"
+  email_confirmation_greeting: "Hola, %{contact}!"
+  email_confirmation_profile_created: "¡Se creó un un perfil para %{name} con éxito!
+Para activar su Perfil necesitamos que confirme esta dirección de correos."
+  email_confirmation_click_link: "Por favor haga clic en el enlace de abajo para confirmar el correo electrónico y continuar configurando su perfil."
+  email_confirmation_link_label: "Confirmar este correo electrónico »"
+  email_confirmation_help_html: "Después de confirmar el correo electrónico puede accesar su cuenta de administración para esta empresa.
+Vea el %{link} para encontrar más acerca de las características de %{sitename} e iniciar a usar su perfil o tienda en línea."
+  email_confirmation_userguide: "Guía de Usuario"
+  email_social: "Conecte con nosotros:"
+  email_contact: "Envíenos un correo electrónico:"
+  email_signoff: "Saludos,"
+  email_signature: "El equipo de %{sitename}"
 
-  email_confirm_customer_greeting: "Hi %{name},"
-  email_confirm_customer_intro_html: "Thanks for shopping at <strong>%{distributor}</strong>!"
-  email_confirm_customer_number_html: "Order confirmation <strong>#%{number}</strong>"
-  email_confirm_customer_details_html: "Here are your order details from <strong>%{distributor}</strong>:"
-  email_confirm_customer_signoff: "Kind regards,"
-  email_confirm_shop_greeting: "Hi %{name},"
-  email_confirm_shop_order_html: "Well done! You have a new order for <strong>%{distributor}</strong>!"
-  email_confirm_shop_number_html: "Order confirmation <strong>#%{number}</strong>"
-  email_order_summary_item: "Item"
-  email_order_summary_quantity: "Qty"
-  email_order_summary_price: "Price"
+  email_confirm_customer_greeting: "Hola %{name},"
+  email_confirm_customer_intro_html: "¡Gracias por comprar en <strong>%{distributor}</strong>!"
+  email_confirm_customer_number_html: "Confirmación de orden <strong>#%{number}</strong>"
+  email_confirm_customer_details_html: "Aquí están los detalles de su orden de <strong>%{distributor}</strong>:"
+  email_confirm_customer_signoff: "Saludos cordiales,"
+  email_confirm_shop_greeting: "Hola %{name},"
+  email_confirm_shop_order_html: "¡Bien hecho! ¡Usted tiene una nueva orden en <strong>%{distributor}</strong>!"
+  email_confirm_shop_number_html: "Confirmación de orden <strong>#%{number}</strong>"
+  email_order_summary_item: "Elemento"
+  email_order_summary_quantity: "Cantidad"
+  email_order_summary_price: "Precio"
   email_order_summary_subtotal: "Subtotal:"
   email_order_summary_total: "Total:"
-  email_payment_paid: PAID
-  email_payment_not_paid: NOT PAID
-  email_payment_summary: Payment summary
-  email_order_summary_method: "Paying via:"
-  email_shipping_delivery_details: Delivery details
-  email_shipping_delivery_time: "Delivery on:"
-  email_shipping_delivery_address: "Delivery address:"
-  email_shipping_collection_details: Collection details
-  email_shipping_collection_time: "Ready for collection:"
-  email_shipping_collection_instructions: "Collection instructions:"
-  email_special_instructions: "Your notes:"
+  email_payment_paid: PAGADO
+  email_payment_not_paid: NO PAGADO
+  email_payment_summary: Resumen de pago
+  email_order_summary_method: "Pagar con:"
+  email_shipping_delivery_details: Detalles de entrega
+  email_shipping_delivery_time: "Entregar en:"
+  email_shipping_delivery_address: "Dirección de entrega:"
+  email_shipping_collection_details: Detalles de recolección
+  email_shipping_collection_time: "Listo para la recolección:"
+  email_shipping_collection_instructions: "Instrucciones de recolección:"
+  email_special_instructions: "Sus notas:"
 
-  email_signup_greeting: Hello!
-  email_signup_welcome: "Welcome to %{sitename}!"
-  email_signup_login: Your login
-  email_signup_email: Your login email is
-  email_signup_shop_html: "You can start shopping online now at %{link}."
-  email_signup_text: "Thanks for joining the network.
-  If you are a customer, we look forward to introducing you to many fantastic farmers, wonderful food hubs and delicious food!
-  If you are a producer or food enterprise, we are excited to have you as a part of the network."
-  email_signup_help_html: "We welcome all your questions and feedback; you can use the <em>Send Feedback</em> button on the site or email us at"
+  email_signup_greeting: ¡Hola!
+  email_signup_welcome: "Bienvenido a %{sitename}!"
+  email_signup_login: Su nombre de usuario
+  email_signup_email: Su correo electrónico para el inicio de sesión es
+  email_signup_shop_html: "Puede empezar a comprar en línea ahora en %{link}."
+  email_signup_text: "Gracias por unirse a la red.
+  Si usted es un cliente, ¡esperamos presentarle muchos fantásticos agricultores, maravillosos sentros de acopio de comida y deliciosa comida!
+  Si usted es un productor o forma parte de una empresa de alimentos, estamos emocionados de que forme parte de la red."
+  email_signup_help_html: "Damos la bienvenida a todas sus preguntas y retroalimentación; usted puede usar el botón de <em>Enviar Retroalimentación</em> en el sitio o enviarnos un correo electrónico a"
 
-  shopping_oc_closed: Orders are closed
-  shopping_oc_closed_description: "Please wait until the next cycle opens (or contact us directly to see if we can accept any late orders)"
-  shopping_oc_last_closed: "The last cycle closed %{distance_of_time} ago"
-  shopping_oc_next_open: "The next cycle opens in %{distance_of_time}"
-  shopping_tabs_about: "About %{distributor}"
-  shopping_tabs_contact: "Contact"
-  shopping_contact_address: "Address"
-  shopping_contact_web: "Contact"
-  shopping_contact_social: "Follow"
-  shopping_groups_part_of: "is part of:"
-  shopping_producers_of_hub: "%{hub}'s producers:"
+  shopping_oc_closed: Las ordenes están cerradas
+  shopping_oc_closed_description: "Por favor espere hasta que el próximo ciclo abra (o contactenos de forma directa para ver si podemos aceptar algunas ordenes tardías)"
+  shopping_oc_last_closed: "El último cilco cerró hace %{distance_of_time}"
+  shopping_oc_next_open: "El próximo ciclo abrirá en %{distance_of_time}"
+  shopping_tabs_about: "Acerca de %{distributor}"
+  shopping_tabs_contact: "Contacto"
+  shopping_contact_address: "Dirección"
+  shopping_contact_web: "Contacto"
+  shopping_contact_social: "Seguir"
+  shopping_groups_part_of: "es parte de:"
+  shopping_producers_of_hub: "productores de %{hub}:"
 
-  enterprises_next_closing: "Next order closing"
-  enterprises_ready_for: "Ready for"
-  enterprises_choose: "Choose when you want your order:"
+  enterprises_next_closing: "Próxima orden cerrando"
+  enterprises_ready_for: "Listo para"
+  enterprises_choose: "Escoger cuando quiere la orden:"
 
-  hubs_buy: "Shop for:"
-  hubs_shopping_here: "Shopping here"
-  hubs_orders_closed: "Orders closed"
-  hubs_profile_only: "Profile only"
-  hubs_delivery_options: "Delivery options"
-  hubs_pickup: "Pickup"
-  hubs_delivery: "Delivery"
-  hubs_producers: "Our producers"
-  hubs_filter_by: "Filter by"
-  hubs_filter_type: "Type"
-  hubs_filter_delivery: "Delivery"
-  hubs_matches: "Did you mean?"
-  hubs_intro: Shop in your local area
-  hubs_distance: Closest to
-  hubs_distance_filter: "Show me shops near %{location}"
+  hubs_buy: "Comprar:"
+  hubs_shopping_here: "Comprando aquí"
+  hubs_orders_closed: "Ordenes cerradas"
+  hubs_profile_only: "Solo perfil"
+  hubs_delivery_options: "Opciones de entrega"
+  hubs_pickup: "Recoger"
+  hubs_delivery: "Entrega"
+  hubs_producers: "Nuestros productores"
+  hubs_filter_by: "Filtrar por"
+  hubs_filter_type: "Tipo"
+  hubs_filter_delivery: "Entrega"
+  hubs_matches: "¿Quizo decir?"
+  hubs_intro: Comprar en su área local
+  hubs_distance: Más cercano a
+  hubs_distance_filter: "Mustreme tiendas cerca de %{location}"
 
-  products_clear_all: Clear all
-  products_showing: "Showing:"
-  products_with: with
-  products_search: "Search by product or producer"
-  products_loading: "Loading products..."
-  products_updating_cart: "Updating cart..."
-  products_cart_empty: "Cart empty"
-  products_edit_cart: "Edit your cart"
-  products_from: from
+  products_clear_all: Limpiar todo
+  products_showing: "Mostrando:"
+  products_with: con
+  products_search: "Buscar por producto o productor"
+  products_loading: "Cargando productos..."
+  products_updating_cart: "Actualizando su carrito..."
+  products_cart_empty: "Carrito vacío"
+  products_edit_cart: "Editar su carrito"
+  products_from: desde
 
-  search_no_results_html: "Sorry, no results found for %{query}. Try another search?"
+  search_no_results_html: "Lo sentimos, no hay resultados para %{query}. ¿Intentar otra búsqueda?"
 
-  components_profiles_popover: "Profiles do not have a shopfront on the Open Food Network, but may have their own physical or online shop elsewhere"
-  components_profiles_show: "Show profiles"
-  components_filters_nofilters: "No filters"
-  components_filters_clearfilters: "Clear all filters"
+  components_profiles_popover: "Los perfiles no tienen escaparate en Open Food Network, pero pueden tener su propia tienda física o en línea en otro lugar"
+  components_profiles_show: "Mostrar perfiles"
+  components_filters_nofilters: "Sin filtros"
+  components_filters_clearfilters: "Limpiar todos los filtros"
 
-  groups_title: Groups
-  groups_headline: Groups / regions
-  groups_search: "Search name or keyword"
-  groups_no_groups: "No groups found"
-  groups_about: "About Us"
-  groups_producers: "Our producers"
-  groups_hubs: "Our hubs"
-  groups_contact_web: Contact
-  groups_contact_social: Follow
-  groups_contact_address: Address
-  groups_contact_email: Email us
-  groups_contact_website: Visit our website
-  groups_contact_facebook: Follow us on Facebook
-  groups_signup_title: Sign up as a group
-  groups_signup_headline: Groups sign up
-  groups_signup_intro: "We're an amazing platform for collaborative marketing, the easiest way for your members and stakeholders to reach new markets. We're non-profit, affordable, and simple."
-  groups_signup_email: Email us
-  groups_signup_motivation1: We transform food systems fairly.
-  groups_signup_motivation2: It's why we get out of bed every day. We're a global non-profit, based on open source code. We play fair. You can always trust us.
-  groups_signup_motivation3: We know you have big ideas, and we want to help. We'll share our knowledge, networks and resources. We know that isolation doesn't create change, so we'll partner with you.
-  groups_signup_motivation4: We meet you where you are.
-  groups_signup_motivation5: You might be an alliance of food hubs, producers, or distributors, and an industry body, or a local government.
-  groups_signup_motivation6: Whatever your role in your local food movement, we're ready to help. However you come to wonder what Open Food Network would look like or is doing in your part of the world, let's start the conversation.
-  groups_signup_motivation7: We make food movements make more sense.
-  groups_signup_motivation8: You need to activate and enable your networks, we offer a platform for conversation and action. You need real engagement. We’ll help reach all the players, all the stakeholders, all the sectors.
-  groups_signup_motivation9: You need resourcing. We’ll bring all our experience to bear. You need cooperation. We’ll better connect you to a global network of peers.
-  groups_signup_pricing: Group Account
-  groups_signup_studies: Case Studies
-  groups_signup_contact: Ready to discuss?
-  groups_signup_contact_text: "Get in touch to discover what OFN can do for you:"
-  groups_signup_detail: "Here's the detail."
+  groups_title: Groupos
+  groups_headline: Groupos / regiones
+  groups_search: "Buscar nombre o palabra clave"
+  groups_no_groups: "No se encontraron grupos"
+  groups_about: "Acerca de nosotros"
+  groups_producers: "Nuestros productores"
+  groups_hubs: "Nuestro centros de acopio"
+  groups_contact_web: Contacto
+  groups_contact_social: Seguir
+  groups_contact_address: Dirección
+  groups_contact_email: Envíenos un correo electrónico
+  groups_contact_website: Visite nuestro sitio web
+  groups_contact_facebook: Síganos en Facebook
+  groups_signup_title: Registrarse como un grupo
+  groups_signup_headline: Registro de grupos
+  groups_signup_intro: "Somos una asombrosa plataforma de mercadeo colaborativo, la forma más sencilla para que sus miembros e interesados encuentren nuevos mercados. No tenemos fines de lucro, somos asequibles y simples."
+  groups_signup_email: Envíenos un correo electrónico
+  groups_signup_motivation1: Nosotros transformamos sistemas de comida de forma justa.
+  groups_signup_motivation2: Es por lo que salimos de la cama cada día. Somos una organización sin fines de lucro global, basada en código de fuente abierta. Jugamos de forma justa. Siempre puede confiar en nosotros.
+  groups_signup_motivation3: Sabemos que tiene grandes ideas, y queremos ayudar. Compartiremos nuestro conocimiento, redes y recursos. Sabemos que el aislamiento no crea cambio, entonces nos asociaremos con usted.
+  groups_signup_motivation4: Nos reunimos con usted en donde esté.
+  groups_signup_motivation5: Usted puede ser una alianza de centros de acopio de comida, productores o distribuidores, y un organismo de la industria o un gobierno local.
+  groups_signup_motivation6: Cualquiera que sea su rol en el movimiento de comida local, estamos listos para ayudar. De cualquier forma en que se pregunte cómo se vería Open Food Network o qué está haciendo en su parte del mundo, empecemos la conversación.
+  groups_signup_motivation7: Hacemos que los movimientos alimenticios tengan más sentido.
+  groups_signup_motivation8: Necesita activar y habilitar sus redes. Le ofrecemos una plataforma para conversación y acción. Necesita involucramiento real. Le ayudaremos a alcanzar todos los actores, todos los interesados, todos los sectores.
+  groups_signup_motivation9: Necesita recursos. Le brindaremos todas nuestras experiencias para portar. Necesita cooperación. Lo conectaremos mejor a una red global de pares.
+  groups_signup_pricing: Cuenta de grupo
+  groups_signup_studies: Casos de estudio
+  groups_signup_contact: ¿Listo para discutir?
+  groups_signup_contact_text: "Póngase en conta para descubrir qué puede hacer OFN por usted:"
+  groups_signup_detail: "Aquí está el detalle."
 
   login_invalid: "Invalid email or password"
 
