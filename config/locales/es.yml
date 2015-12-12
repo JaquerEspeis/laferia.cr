@@ -1,3 +1,6 @@
+
+
+
 es:
   devise:
     failure:
@@ -41,7 +44,6 @@ es:
   first_name: Nombre
   last_name: Apellido
   email: Correo electrónico
-
   phone: Teléfono
   next: Siguiente
   address: Dirección
@@ -600,34 +602,34 @@ Please follow the instructions there to make your enterprise visible on the Open
   registration_detail_name_error: "Please choose a unique name for your enterprise"
   registration_detail_address1: "Address line 1:"
   registration_detail_address1_placeholder: "e.g. 123 Cranberry Drive"
-  registration_detail_address1_error: "Please enter an address"
-  registration_detail_address2: "Address line 2:"
-  registration_detail_suburb: "Suburb:"
+  registration_detail_address1_error: "Ingrese una dirección"
+  registration_detail_address2: "Linea de dirección 2:"
+  registration_detail_suburb: "Barrio:"
   registration_detail_suburb_placeholder: "e.g. Northcote"
-  registration_detail_suburb_error: "Please enter a suburb"
-  registration_detail_postcode: "Postcode:"
+  registration_detail_suburb_error: "Ingrese el barrio"
+  registration_detail_postcode: "Código postal:"
   registration_detail_postcode_placeholder: "e.g. 3070"
-  registration_detail_postcode_error: "Postcode required"
-  registration_detail_state: "State:"
-  registration_detail_state_error: "State required"
-  registration_detail_country: "Country:"
-  registration_detail_country_error: "Please select a country"
-  fees: "Fees"
-  item_cost: "Item cost"
-  bulk: "Bulk"
-  shop_variant_quantity_min: "min"
-  shop_variant_quantity_max: "max"
-  contact: "Contact"
-  follow: "Follow"
-  shop_for_products_html: "Shop for <span class=\"turquoise\">%{enterprise}</span> products at:"
-  change_shop: "Change shop to:"
-  shop_at: "Shop now at:"
-  price_breakdown: "Full price breakdown"
-  admin_fee: "Admin fee"
-  sales_fee: "Sales fee"
-  packing_fee: "Packing fee"
-  transport_fee: "Transport fee"
-  fundraising_fee: "Fundraising fee"
-  price_graph: "Price graph"
-  included_tax: "Included tax"
-  remove_tax: "Remove tax"
+  registration_detail_postcode_error: "Código postal requerido"
+  registration_detail_state: "Estado:"
+  registration_detail_state_error: "Estado requerido"
+  registration_detail_country: "País:"
+  registration_detail_country_error: "Seleccione un país"
+  fees: "Tarifas"
+  item_cost: "Costo del artículo"
+  bulk: "Agrupar"
+  shop_variant_quantity_min: "mínimo"
+  shop_variant_quantity_max: "máximo"
+  contact: "Contacto"
+  follow: "Seguir"
+  shop_for_products_html: "Comprar productos de <span class=\"turquoise\">%{enterprise}</span> en:"
+  change_shop: "Cambiar de tienda:"
+  shop_at: "Comprar en:"
+  price_breakdown: "Desglose de precios completo"
+  admin_fee: "Tarifa de administración"
+  sales_fee: "Tarifa de ventas"
+  packing_fee: "Tarifa de empaquetado"
+  transport_fee: "Tarifa de transporte"
+  fundraising_fee: "Tarifa para recaudación de fondos"
+  price_graph: "Gráfico de precios"
+  included_tax: "Impuesto incluido"
+  remove_tax: "Eliminar impuesto"
