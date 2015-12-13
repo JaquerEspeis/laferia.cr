@@ -336,16 +336,16 @@ Vea el %{link} para encontrar más acerca de las características de %{sitename}
   groups_signup_contact_text: "Póngase en conta para descubrir qué puede hacer OFN por usted:"
   groups_signup_detail: "Aquí está el detalle."
 
-  login_invalid: "Invalid email or password"
+  login_invalid: "Correo electrónico o contraseña inválidos"
 
-  modal_hubs: "Food Hubs"
-  modal_hubs_abstract: Our food hubs are the point of contact between you and the people who make your food!
-  modal_hubs_content1: You can search for a convenient hub by location or name. Some hubs have multiple points where you can pick-up your purchases, and some will also provide delivery options. Each food hub is a sales point with independent business operations and logistics - so variations between hubs are to be expected.
-  modal_hubs_content2: You can only shop at one food hub at a time.
+  modal_hubs: "Centros de acopio de comida"
+  modal_hubs_abstract: ¡Nuestros centros de acopio de comida son el punto de contacto entre usted y la gente que hace su comida!
+  modal_hubs_content1: Puede buscar un centro de acopio conveniente por ubicación o nombre. Algunos centros de acopio tienen múltiples puntos en loa que puede recoger las compras, y algunos también brindan opciones de entrega a domicilio. Cada centro de acopio de comida es un punto de venta con operaciones de negocio y logística independientes, entonces puede esperar diferencias entre centros de acopio.
+  modal_hubs_content2: Sólo puede comprar en un centro de acopio a la vez.
 
-  modal_groups: "Groups / Regions"
-  modal_groups_content1: These are the organisations and relationships between hubs which make up the Open Food Network.
-  modal_groups_content2: Some groups are clustered by location or council, others by non-geographic similarities.
+  modal_groups: "Grupos / Regiones"
+  modal_groups_content1: Estas son las organizaciones y relaciones entre centros de acopio que conforman el Open Food Network.
+  modal_groups_content2: Algunos grupos están organizados por ubicación o junta, otros por similaridades no geográficas.
 
   modal_how: "How it works"
   modal_how_shop: Shop the Open Food Network
