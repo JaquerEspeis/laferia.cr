@@ -10,6 +10,19 @@
   position: relative;
   z-index: 5;
 
+  .search-wrap {
+    position: relative;
+    width: 100%;
+
+    .clear {
+      height: 1em;
+      width: 1em;
+      margin-top: 1em;
+      position: absolute;
+      right: 1em;
+    }
+  }
+
   input#search {
     height: 3em;
     border-radius: $radius-small;
@@ -37,6 +50,12 @@
     @include breakpoint(mobile) {
       margin-left: 0.75em;
     }
+  }
+
+  @include breakpoint(desktop) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: $mobile-nav-height;
   }
 
   @include breakpoint(mobile) {

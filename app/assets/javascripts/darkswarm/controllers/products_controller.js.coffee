@@ -87,8 +87,11 @@ Darkswarm.controller "ProductsCtrl", ($scope, $sce, $filter, $rootScope, Product
     $sce.trustAsHtml(" <span>#{t('products_or')}</span> ")
 
   $scope.clearAll = ->
-    $scope.query = ""
+    $scope.clearQuery()
     $scope.clearFilters()
+
+  $scope.clearQuery = ->
+    $scope.query = ""
 
   $scope.clearFilters = ->
     $scope.taxonSelectors.clearAll()
