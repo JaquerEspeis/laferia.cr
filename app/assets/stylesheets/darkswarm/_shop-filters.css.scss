@@ -2,6 +2,7 @@
 @import "branding";
 @import "big-input";
 @import "animations";
+@import "variables";
 
 @mixin filter-selector($base-clr, $border-clr, $hover-clr) {
   &.inline-block, ul.inline-block {
@@ -107,26 +108,63 @@
 // Alert when search, taxon, filter is triggered
 
 .alert-box.search-alert {
-  background-color: $clr-yellow-light;
-  border-color: $clr-yellow-light;
+  background-color: $white;
   color: #777;
-  font-size: 0.75rem;
-  padding: 0.5rem 0.75rem;
+  font-size: 1em;
+  padding: 0.35em 0 0;
+  border: 0;
+  margin: 0;
 
-  span.applied-properties {
-    color: #333;
+  .clear-all {
+    color: $grey-500;
+
+    &:hover {
+      color: $grey-600;
+    }
   }
 
-  span.applied-taxons {
-    color: $clr-blue;
+  .no-results {
+    color: $grey-800;
+    font-style: italic;
+    font-size: 1.25em;
   }
 
-  span.applied-search {
-    color: $clr-brick;
+  .clear-search {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    color: $orange-500;
+    font-size: 1.25em;
+
+    &:hover {
+      color: $orange-400;
+    }
   }
 
-  span.filter-label {
-    opacity: 0.75;
+  span {
+    color: $grey-800;
+    font-style: italic;
+
+    &.applied-properties {
+      color: $grey-800;
+    }
+
+    &.applied-taxons {
+      color: $clr-blue;
+    }
+
+    &.applied-search {
+      font-weight: bold;
+      color: $teal-500;
+    }
+
+    &.filter-label {
+      float: left;
+    }
+  }
+
+  @include breakpoint(desktop) {
+    text-align: center;
   }
 }
 
