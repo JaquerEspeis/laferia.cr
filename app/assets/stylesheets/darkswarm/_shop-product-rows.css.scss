@@ -10,44 +10,13 @@
         .columns {
           padding-top: 0em;
           padding-bottom: 0em;
-          display: table;
           line-height: 1.1;
-
-          // outline: 1px solid red
-
-          @include breakpoint(tablet) {
-            font-size: 0.875rem;
-          }
-
-          @include breakpoint(phablet) {
-            font-size: 0.75rem;
-          }
-        }
-
-        .table-cell {
-          display: table-cell;
-          vertical-align: middle;
-          height: 37px;
         }
       }
 
       // ROW VARIANTS
       .row.variants {
-        margin-left: 0;
-        margin-right: 0;
-        background-color: #ECECEC;
-
-        &:hover, &:focus, &:active {
-          background-color: $clr-brick-light;
-        }
-
-        &:nth-of-type(even) {
-          background-color: #f9f9f9;
-
-          &:hover, &:focus, &:active {
-            background-color: $clr-brick-ultra-light;
-          }
-        }
+        margin: 0 0 1em 0;
 
         &.out-of-stock {
           opacity: 0.2;
@@ -57,34 +26,13 @@
         .variant-name {
           padding-left: 7.9375rem;
 
-          @include breakpoint(tablet) {
-            padding-left: 4.9375rem;
-          }
-        }
-
-        .variant-name {
           @include breakpoint(phablet) {
-            background: #333;
-            color: white;
             padding-left: 0.9375rem;
-            font-weight: bold;
-
-            .table-cell {
-              height: 27px;
-            }
           }
-        }
 
-        // Variant unit
-        .variant-unit {
-          padding-left: 0rem;
-          padding-right: 0rem;
-          color: #888;
-          font-size: 0.875rem;
-          overflow: hidden;
-
-          @include breakpoint(tablet) {
-            font-size: 0.75rem;
+          & > *:nth-child(n + 2) {
+            color: #888;
+            font-size: 0.875rem;
           }
         }
 
@@ -108,16 +56,7 @@
           }
 
           @include breakpoint(phablet) {
-            background: #777;
-            color: $disabled-med;
-
-            .filled {
-              color: white;
-            }
-
-            .table-cell {
-              height: 27px;
-            }
+            display: none;
           }
         }
       }
@@ -126,6 +65,7 @@
       .row.summary {
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 1.25em;
         background: #fff;
 
         .columns {
@@ -141,38 +81,61 @@
 
         .summary-header {
           padding-left: 7.9375rem;
+          padding-right: 1rem;
 
-          @include breakpoint(tablet) {
-            padding-left: 4.9375rem;
-          }
+          .product-producer {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-style: italic;
 
-          @include breakpoint(phablet) {
-            padding-left: 0.9375rem;
-          }
+            a {
+              color: $teal-500;
 
-          small {
-            font-size: 80%;
+              &:hover, &:focus, &:active {
+                color: $teal-600;
+                text-decoration: underline;
+              }
+            }
           }
 
           h3 {
             font-size: 1.5rem;
-            margin: 0;
           }
 
           h3 a {
-            color: #222;
-
-            i {
-              @include csstrans;
-
-              font-size: 0.6em;
-            }
+            color: $orange-500;
 
             &:hover, &:focus, &:active {
-              color: $clr-brick;
+              color: $orange-600;
+              text-decoration: underline;
+            }
+          }
 
-              i {
-                font-size: 0.8em;
+          .product-description {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .product-properties {
+            margin: .5em 0;
+
+            li {
+              margin: 0 0.25rem 0 0;
+
+              a {
+                padding: 0.1em 0.625em;
+
+                cursor: auto;
+
+                &.has-tip {
+                  cursor: pointer;
+                  font-weight: normal;
+                }
+                &:hover, &:focus {
+                  border-color: #ccc;
+                }
               }
             }
           }
