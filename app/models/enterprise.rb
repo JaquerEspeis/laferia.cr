@@ -83,6 +83,7 @@ class Enterprise < ActiveRecord::Base
   validates_attachment_content_type :terms_and_conditions,
                                     content_type: "application/pdf",
                                     message: I18n.t(:enterprise_terms_and_conditions_type_error)
+  # enterprise_terms_and_conditions_uploaded_at
 
   include Spree::Core::S3Support
   supports_s3 :logo
