@@ -34,7 +34,7 @@ module CheckoutHelper
   end
 
   def checkout_subtotal(order)
-    order.item_total + checkout_line_item_adjustments(order).sum(&:amount)
+    order.item_total + checkout_line_item_adjustments(order).sum(:amount)
   end
 
   def display_checkout_subtotal(order)
